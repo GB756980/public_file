@@ -2,7 +2,7 @@ function main(config) {
   config["proxy-groups"] = [
     {
       name: "🚀 节点选择",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/select.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/select.png",
       type: "select",
       proxies: [
         "☑️ 手动切换", "♻️ 自动选择", "🔯 故障转移", "🔮 负载均衡", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "DIRECT"
@@ -10,13 +10,13 @@ function main(config) {
     },
     {
       name: "☑️ 手动切换",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/select.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/select.png",
       "include-all": true,
       type: "select"
     },
     {
       name: "♻️ 自动选择",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/urltest.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/urltest.png",
       type: "url-test",
       "include-all": true,
       interval: 300,
@@ -24,14 +24,14 @@ function main(config) {
     },
     {
       name: "🔯 故障转移",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/fallback.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/fallback.png",
       type: "fallback",
       "include-all": true,
       interval: 300
     },
     {
       name: "🔮 负载均衡",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/loadbalance.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/loadbalance.png",
       type: "load-balance",
       "include-all": true,
       interval: 300,
@@ -39,7 +39,7 @@ function main(config) {
     },
     {
       name: "📲 电报消息",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Telegram.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png",
       type: "select",
       proxies: [
         "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -47,7 +47,7 @@ function main(config) {
     },
     {
       name: "🤖 AI节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png",
       type: "select",
       proxies: [
         "🇺🇲 美国节点", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -55,7 +55,7 @@ function main(config) {
     },
     {
       name: "📹 油管视频",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/YouTube.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png",
       type: "select",
       proxies: [
         "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -63,7 +63,7 @@ function main(config) {
     },
     {
       name: "🎥 奈飞视频",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png",
       type: "select",
       proxies: [
         "🇸🇬 狮城节点", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -71,7 +71,7 @@ function main(config) {
     },
     {
       name: "📺 巴哈姆特",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Bahamut.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png",
       type: "select",
       proxies: [
         "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -79,7 +79,7 @@ function main(config) {
     },
     {
       name: "📺 哔哩哔哩",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/bilibili_3.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png",
       type: "select",
       proxies: [
         "🎯 全球直连", "🇭🇰 香港节点", "🇹🇼 台湾节点"
@@ -87,7 +87,7 @@ function main(config) {
     },
     {
       name: "🌍 国外媒体",
-      icon: "https://raw.githubusercontent.com/xushier/HD-Icons/border-radius/ForeignMedia.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png",
       type: "select",
       proxies: [
         "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -95,7 +95,7 @@ function main(config) {
     },
     {
       name: "🌍 国内媒体",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/DomesticMedia.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DomesticMedia.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -103,7 +103,7 @@ function main(config) {
     },
     {
       name: "📢 谷歌FCM",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Google.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -111,7 +111,7 @@ function main(config) {
     },
     {
       name: "Ⓜ️ 微软Bing",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash/icon/bing.png",
+      icon: "https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/master/icon/bing.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -119,7 +119,7 @@ function main(config) {
     },
     {
       name: "Ⓜ️ 微软云盘",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/OneDrive.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/OneDrive.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -127,7 +127,7 @@ function main(config) {
     },
     {
       name: "Ⓜ️ 微软服务",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Microsoft.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -135,7 +135,7 @@ function main(config) {
     },
     {
       name: "🍎 苹果服务",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Apple.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -143,7 +143,7 @@ function main(config) {
     },
     {
       name: "🎮 游戏平台",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Game.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png",
       type: "select",
       proxies: [
         "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换", "DIRECT"
@@ -151,7 +151,7 @@ function main(config) {
     },
     {
       name: "🎶 网易音乐",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netease_Music_Unlock.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -159,7 +159,7 @@ function main(config) {
     },
     {
       name: "🎯 全球直连",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Direct.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png",
       type: "select",
       proxies: [
         "DIRECT", "🚀 节点选择", "♻️ 自动选择"
@@ -167,7 +167,7 @@ function main(config) {
     },
     {
       name: "🛑 广告拦截",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AdBlack.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AdBlack.png",
       type: "select",
       proxies: [
         "REJECT", "DIRECT"
@@ -175,7 +175,7 @@ function main(config) {
     },
     {
       name: "🍃 应用净化",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hijacking.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hijacking.png",
       type: "select",
       proxies: [
         "REJECT", "DIRECT"
@@ -183,7 +183,7 @@ function main(config) {
     },
     {
       name: "🐟 漏网之鱼",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Final.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png",
       type: "select",
       proxies: [
         "🚀 节点选择", "DIRECT", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🇰🇷 韩国节点", "☑️ 手动切换"
@@ -191,7 +191,7 @@ function main(config) {
     },
     {
       name: "🇭🇰 香港节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png",
       "include-all": true,
       filter: "(?i)(港|HK|hk|Hong Kong|HongKong|hongkong|HKG)",
       type: "load-balance",
@@ -200,7 +200,7 @@ function main(config) {
     },
     {
       name: "🇹🇼 台湾节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png",
       "include-all": true,
       filter: "(?i)(台|新北|彰化|TW|Taiwan|TPE|KHH)",
       type: "load-balance",
@@ -209,7 +209,7 @@ function main(config) {
     },
     {
       name: "🇸🇬 狮城节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png",
       "include-all": true,
       filter: "(?i)(新加坡|坡|狮城|SG|Singapore|SIN)",
       type: "load-balance",
@@ -218,7 +218,7 @@ function main(config) {
     },
     {
       name: "🇯🇵 日本节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png",
       "include-all": true,
       filter: "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|Tokyo|NRT|KIX)",
       type: "load-balance",
@@ -227,7 +227,7 @@ function main(config) {
     },
     {
       name: "🇺🇲 美国节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png",
       "include-all": true,
       filter: "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC)",
       type: "load-balance",
@@ -236,7 +236,7 @@ function main(config) {
     },
     {
       name: "🇰🇷 韩国节点",
-      icon: "https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png",
+      icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png",
       "include-all": true,
       filter: "(?i)(KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN)",
       type: "load-balance",
